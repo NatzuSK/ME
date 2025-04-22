@@ -76,7 +76,11 @@ const App = () => {
     <>
     <Navbar />
 
-    <section id="home" className="h-screen bg-gray-100 flex items-center justify-center px-6" data-aos="fade-right">
+     <section
+      id="home"
+      className="pt-16 h-screen bg-gray-100 flex items-center justify-center px-6"
+      data-aos="fade-right"
+    >
       <div className="flex flex-col md:flex-row items-center justify-center gap-20 max-w-6xl w-full">
         <div className="text-gray-800 font-extrabold text-4xl md:text-6xl leading-tight">
           <span className="block">MY</span>
