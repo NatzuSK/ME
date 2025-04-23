@@ -70,13 +70,11 @@ const App = () => {
   };
 
 
-
-
   return (
     <>
     <Navbar />
 
-     <section
+    <section
       id="home"
       className="pt-16 h-screen bg-gray-100 flex items-center justify-center px-6"
       data-aos="fade-right"
@@ -107,7 +105,7 @@ const App = () => {
     <div className="flex flex-col md:flex-row-reverse items-center justify-center gap-20 max-w-6xl w-full">
       <div className="mt-10 md:mt-0">
         <img
-          src="https://media.discordapp.net/attachments/1168558781769199638/1363871135971938437/476763524_1160357908823506_1100481650048589676_n.jpg?ex=68079b7a&is=680649fa&hm=44bd24da9f907ee7554729dadf110b6919841c31ec372ca6efd284326d741a1c&=&format=webp&width=724&height=482"
+          src="https://media.discordapp.net/attachments/1168558781769199638/1363871135971938437/476763524_1160357908823506_1100481650048589676_n.jpg?ex=680995ba&is=6808443a&hm=f0be8a7088fe6097b59aaa97a923e968baff4602f2fb7636902a627ca87e25d1&=&format=webp&width=810&height=540"
           alt="Profile"
           className="w-[360px] h-[240px] md:w-[400px] md:h-[270px] rounded-xl object-cover shadow-lg hover:scale-105 transition-transform duration-300"
         />
@@ -139,7 +137,7 @@ const App = () => {
   <div className="w-full max-w-4xl bg-white rounded-xl shadow-md overflow-hidden flex flex-col md:flex-row items-center gap-6 p-6 hover:shadow-xl transition-shadow duration-300" data-aos="fade-right">
     <div className="flex-shrink-0">
       <img 
-        src="https://media.discordapp.net/attachments/1168558781769199638/1363878595851845984/image.png?ex=6807a26c&is=680650ec&hm=bacf3ea737f44b3192910917d9670a9e2bb63f071023ca5dccee502c54b95a19&=&format=webp&quality=lossless&width=287&height=141" 
+        src="https://media.discordapp.net/attachments/1168558781769199638/1363878595851845984/image.png?ex=68099cac&is=68084b2c&hm=bab5cfec5d54e439dbc779619f1b71e592807cf6dce23d3b8ac8a5f28302393e&=&format=webp&quality=lossless&width=321&height=158" 
         alt="Project Dictionary" 
         className="w-[300px] h-[150px] object-cover rounded-lg"
       />
@@ -157,21 +155,20 @@ const App = () => {
   </div>
   <div className="mt-3 w-full max-w-4xl bg-white rounded-xl shadow-md overflow-hidden flex flex-col md:flex-row items-center gap-6 p-6 hover:shadow-xl transition-shadow duration-300" data-aos="fade-left">
     <div className="flex-shrink-0">
-      <div className="w-[300px] aspect-[16/9]">
+      <div className="w-[300px] aspect-[3/3]">
           <img 
-            src="https://media.discordapp.net/attachments/1168558781769199638/1363882985467810035/image.png?ex=6807a683&is=68065503&hm=b896abb577641d17ddf3987b916fe53b7d755079cf23aab8b05701a12a2b9e89&=&format=webp&quality=lossless&width=281&height=151" 
+            src="https://media.discordapp.net/attachments/1168558781769199638/1364596482866417665/image.png?ex=680a3f02&is=6808ed82&hm=e6efe4d79c748daeca956c9159cb64de116d1cc2bbb03c461ece764bb9c4c8eb&=&format=webp&quality=lossless&width=278&height=260" 
             className="w-full h-full object-cover rounded-lg"
           />
       </div>
     </div>
 
     <div className="flex-1">
-      <h2 className="text-3xl font-bold text-blue-600 underline" style={{ textTransform: "uppercase" }}>Rank-Up</h2>
+      <h2 className="text-3xl font-bold text-blue-600 underline" style={{ textTransform: "uppercase" }}>Bot-Minigame</h2>
       <p className="mt-2 text-gray-700">
-        บอทจัดอันดับ Rank สำหรับ Discord ที่สามารถบันทึกจากการส่งข้อความ<br />
-        บอทตัวนี้ช่วยให้การจัดอันดับในเซิร์ฟเวอร์ Discord <br />
-        ของผมมีความสนุกและลูกเล่นมากยิ่งขึ้น 🚀<br />
-        <span className="text-blue-500 font-bold">เทคโนโลยี:</span> Python (Nextcord), Mongodb สำหรับจัดเก็บข้อมูล<br />
+        บอท Minigame คณิตคิดไว , เป่ายิ้งฉุบ<br />
+        ทำให้Severของผมมีความสนุกและลูกเล่นมากยิ่งขึ้น 🚀<br />
+        <span className="text-blue-500 font-bold">เทคโนโลยี:</span> Python (Nextcord)<br />
         
       </p>
     </div>
@@ -188,7 +185,7 @@ const App = () => {
     <div className="flex-shrink-0">
       <div className="w-[300px] aspect-[3/4]">
         <img 
-          src="https://media.discordapp.net/attachments/1168558781769199638/1364116070360944640/image.png?ex=68087f97&is=68072e17&hm=a768ad02e28877ba6007655de6be3bb0783a39f6e8c795f8b2b4c4378ce29dea&=&format=webp&quality=lossless&width=405&height=575" 
+          src="https://media.discordapp.net/attachments/1168558781769199638/1364116070360944640/image.png?ex=6809d117&is=68087f97&hm=bfd63cde72ed46cd97e6f6ada8132f132c191a8c47e2e99f14d3d2237ad81f6b&=&format=webp&quality=lossless&width=405&height=575" 
           className="w-full h-full object-cover rounded-lg"
         />
       </div>
@@ -213,7 +210,7 @@ const App = () => {
     <div className="flex-shrink-0">
       <div className="w-[300px] aspect-[3/3]">
         <img 
-          src="https://media.discordapp.net/attachments/1168558781769199638/1363884206672969799/image.png?ex=6807a7a6&is=68065626&hm=70fb57a7726f951f7dfb9171d93af140d4d237aae2e414905b90bfdc65aef5a5&=&format=webp&quality=lossless&width=448&height=458" 
+          src="https://media.discordapp.net/attachments/1168558781769199638/1363884206672969799/image.png?ex=6809a1e6&is=68085066&hm=3c3c99f4eeb7309471572ddb8023d330e5c7569bd22949566c771966187c191f&=&format=webp&quality=lossless&width=448&height=458" 
           className="w-full h-full object-cover rounded-lg"
         />
       </div>
@@ -239,7 +236,7 @@ const App = () => {
     <div className="flex-shrink-0">
       <div className="w-[300px] aspect-[16/9]">
         <img 
-          src="https://media.discordapp.net/attachments/1168558781769199638/1364069309684383814/image.png?ex=6808540a&is=6807028a&hm=4aaed8fe6ea100bcba0c5e4d11b0ab8b09de83108f8b16c91b9fe70ba2fd86c8&=&format=webp&quality=lossless&width=404&height=271" 
+          src="https://media.discordapp.net/attachments/1168558781769199638/1364069309684383814/image.png?ex=6809a58a&is=6808540a&hm=7b88615eb3a1886a9b02d77bfd688dc83fa1bf30765a0c3d337afcc61c8894b6&=&format=webp&quality=lossless&width=404&height=271" 
           className="w-full h-full object-cover rounded-lg"
         />
       </div>
@@ -266,7 +263,7 @@ const App = () => {
     <div className="flex-shrink-0">
       <div className="w-[300px] aspect-[16/9]">
         <img 
-          src="https://media.discordapp.net/attachments/1168558781769199638/1364066239038623754/image.png?ex=6808512e&is=6806ffae&hm=2aac2fbeab4f34382a6c4473a6a00e12bde5fbb2994c33b8c9aba1c42eff81a9&=&format=webp&quality=lossless&width=377&height=253" 
+          src="https://media.discordapp.net/attachments/1168558781769199638/1364597018688884757/image.png?ex=680a3f82&is=6808ee02&hm=b96a3d14088c64e559080b8a1f3453ec150199e510f924020c4e3d643b6f3a9d&=&format=webp&quality=lossless&width=369&height=258" 
           className="w-full h-full object-cover rounded-lg"
         />
       </div>
@@ -289,7 +286,7 @@ const App = () => {
   <div className="flex-shrink-0">
       <div className="w-[300px] aspect-[16/9]">
         <img 
-          src="https://media.discordapp.net/attachments/1168558781769199638/1364102766003359774/image.png?ex=68087333&is=680721b3&hm=d1eb24a4b0902f8c6b93171d0cf3fb00694ecb2f9185c63f0917286d36ae259d&=&format=webp&quality=lossless&width=641&height=404" 
+          src="https://media.discordapp.net/attachments/1168558781769199638/1364102766003359774/image.png?ex=6809c4b3&is=68087333&hm=c402649b071f5fd3c6be476fb00a8f5b951ee0a12d33cb3b2bab685ab849d8a7&=&format=webp&quality=lossless&width=641&height=404" 
           className="w-full h-full object-cover rounded-lg"
         />
       </div>
